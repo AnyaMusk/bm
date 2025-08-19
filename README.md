@@ -5,3 +5,5 @@ Guide:
 2. Toggling those buttons will make the cell unwalkable in the game grid
 3. Press play mode and use mouse click to move player and then enemy.
 
+Here is the demonstrated working :
+https://github.com/user-attachments/assets/badbc9a2-4598-4085-9cd1-77d10d717658
