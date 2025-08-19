@@ -34,6 +34,11 @@ public class MovableUnit : MonoBehaviour
             }
             _coroutine = StartCoroutine(FollowPath());
         }
+        else
+        {
+            // no path
+            _hasReached = true;
+        }
     }
 
     // moves the body according to the given path list

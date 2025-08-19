@@ -68,7 +68,7 @@ public class CustomGrid
                 Vector2Int nCoord = new Vector2Int(x + node.gridCoordinate.x, y + node.gridCoordinate.y);
                 if (x == 0 && y == 0)
                     continue;
-                if (IsInBounds(nCoord))
+                if (IsInBounds(nCoord) && Mathf.Abs(x + y) == 1)
                     nodes.Add(_grid[nCoord.x, nCoord.y]);
             }
         }
